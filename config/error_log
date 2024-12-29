@@ -1,0 +1,72 @@
+[11-May-2024 05:20:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/database.php on line 18
+[11-May-2024 17:56:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/database.php on line 18
+[26-Jun-2024 23:27:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/database.php on line 18
+[23-Jul-2024 06:15:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/cache.php on line 18
+[02-Aug-2024 00:24:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/database.php on line 18
+[06-Sep-2024 08:00:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/database.php on line 18
+[01-Oct-2024 04:26:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/database.php on line 18
+[04-Nov-2024 07:40:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/database.php on line 18
+[14-Dec-2024 03:17:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/app.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/app.php on line 19
+[14-Dec-2024 03:17:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/database.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/database.php on line 18
+[14-Dec-2024 03:17:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/mail.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/mail.php on line 16
+[14-Dec-2024 03:17:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/cache.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/cache.php on line 18
+[14-Dec-2024 03:17:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/queue.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/queue.php on line 16
+[14-Dec-2024 03:17:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/session.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/session.php on line 21
+[14-Dec-2024 03:17:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resource_path() in /home/itsomeza/rafusoft.com/config/view.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/view.php on line 17
+[14-Dec-2024 03:17:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/filesystems.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/filesystems.php on line 16
+[14-Dec-2024 03:17:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/services.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/services.php on line 18
+[14-Dec-2024 03:17:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /home/itsomeza/rafusoft.com/config/broadcasting.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/config/broadcasting.php on line 18

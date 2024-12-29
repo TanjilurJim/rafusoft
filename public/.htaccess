@@ -1,0 +1,45 @@
+## Rafu Entry
+
+
+## Rafu Entry
+
+RewriteEngine On
+
+# Redirect www to non-www and HTTP to HTTPS
+RewriteCond %{HTTP_HOST} ^www\.rafusoft\.com [NC,OR]
+RewriteCond %{HTTPS} off
+RewriteRule ^index\.php$ https://rafusoft.com/ [L,R=301]
+
+# Redirect www to non-www and HTTP to HTTPS for other URLs
+RewriteCond %{HTTP_HOST} ^www\.rafusoft\.com [NC,OR]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://rafusoft.com/$1 [L,R=301]
+
+# Redirect HTTP to HTTPS for robots.txt
+RewriteCond %{HTTPS} off
+RewriteRule ^robots\.txt$ https://rafusoft.com/robots.txt [L,R=301]
+
+## Rafu entry
+
+
+
+<IfModule mod_rewrite.c>
+    <IfModule mod_negotiation.c>
+        Options -MultiViews -Indexes
+    </IfModule>
+
+    RewriteEngine On
+    # Handle Authorization Header
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Redirect Trailing Slashes If Not A Folder...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [L,R=301]
+
+    # Send Requests To Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+    

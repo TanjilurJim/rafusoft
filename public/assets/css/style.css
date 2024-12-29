@@ -1,0 +1,535 @@
+.button {
+  background: #F15A29;
+  color: rgb(255, 255, 255);
+  font-size: 1.05em;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.3s ease-out;
+  padding: .6rem 1rem;
+}
+
+.button {
+  box-shadow: inset 0 0 #F15A29;
+  transition: all 0.3s ease-out;
+}
+
+.button:hover {
+  box-shadow: inset 12em 0 #BB411A;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+li{
+  list-style: revert !important;
+}
+ol{
+  list-style: revert !important;
+}
+
+
+
+body {
+  font-family: "Poppins", "Hind Siliguri";
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+.font{
+  font-family: "Poppins", sans-serif !important;
+}
+
+
+
+
+
+/* global  */
+
+
+.text-primaary{
+  color: #F15A29;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+
+div:hover{
+  transition:  .00001s;
+}
+
+.li:hover>ul{
+  visibility: visible;
+  top: 50px;
+  z-index: 0;
+  transform: rotateX(0deg);
+  transition: all .2s;
+}
+.li>ul{
+  transform: rotateX(90deg);
+  /* transition:  .2s; */
+  /* transition-duration: .1s; */
+}
+
+.li:hover>a>i{
+  transform:  rotate(-180deg);
+  /* transition: all .3s; */
+}
+
+
+.sub_link:hover{
+  background-color: #F15A29;
+}
+
+/* .menu-small{
+  transition: all .5s;
+} */
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+
+
+
+
+/* rain  */
+
+nav{
+  z-index: 10000000000000000000 !important;
+}
+
+
+.mobile-app-child{
+  transform: scale(1);
+}
+
+
+.mobile-app:hover>.mobile-app-child{
+  transform: scale(1);
+  transition: all .5s;
+}
+
+
+.bg-process {
+  margin-top: 4rem;
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.793),
+    rgba(0, 0, 0, 0.793),
+    rgba(0, 0, 0, 0.793)
+  ), url('../img/porcess-bg.jpg');
+  background-attachment: fixed;
+}
+
+
+
+.border-mini{
+  border: .5px solid #858585;
+}
+
+
+
+.quote-bg{
+  background-image: url('../img/stats/download.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+.bradcamp-keyboard {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.887), rgba(0, 0, 0, 0.828)), url('../public/img/keyboard.jpg');
+  background-size: cover;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+.sub_main div{
+  /* transform:  ; */
+  transform: rotateX(90deg);
+  transition: all .2s;
+  visibility: hidden;
+}
+.sub_main:hover> div{
+  /* transition: all .3s; */
+  transform: rotateX(0deg);
+  transition: all .3s;
+  background-color: #F15A29;
+  visibility: visible;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+.info_item {
+  width: 350px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 4rem;
+  border-top-left-radius: 0%;
+  color: rgb(0, 0, 0);
+  position: relative;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.info_item:hover {
+  background-color: #EE6A12;
+}
+
+.info_item_img {
+  background-color: antiquewhite;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  left: 0%;
+  border-radius: 100%;
+  border-top-left-radius: 0%;
+  background-color: rgb(238, 106, 18);
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+}
+
+
+
+
+
+
+.bg-dir{
+  background-image: url('../img/career/Software-Service.jpg');
+  background-size: cover;
+}
+
+
+.bg-dir{
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.902), rgba(0, 0, 0, 0.902)), url('../img/career/Software-Service.jpg');
+  background-size: cover;
+}
+
+
+
+
+.bg-global{
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.89)), url('../img/career/Software-Service.jpg');
+  background-size: cover;
+}
+
+
+.bg-cobra{
+  background-image: linear-gradient(90deg, #101010d9, #000000d7), url('../img/cobra-banner.png');
+  background-size: cover;
+}
+.bg-cobra-sdk{
+  background-image: linear-gradient(90deg, #101010d9, #000000d7), url('../img/sdk/sicurity.jpg');
+  background-size: cover;
+}
+
+
+
+
+
+
+
+/* loader  */
+
+
+.load div {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	transform: scale(0);
+	animation: animate 2s ease-in-out infinite;
+	display: inline-block;
+	/* margin: .5rem; */
+}
+.load div:nth-child(0) {
+	animation-delay: 0s;
+}
+.load div:nth-child(1) {
+	animation-delay: 0.2s;
+}
+.load div:nth-child(2) {
+	animation-delay: 0.4s;
+}
+.load div:nth-child(3) {
+	animation-delay: 0.6s;
+}
+.load div:nth-child(4) {
+	animation-delay: 0.8s;
+}
+.load div:nth-child(5) {
+	animation-delay: 1s;
+}
+.load div:nth-child(6) {
+	animation-delay: 1.2s;
+}
+.load div:nth-child(7) {
+	animation-delay: 1.4s;
+}
+@keyframes animate {
+	0%, 100% {
+		transform: scale(1);
+		background-color: #F15A29;
+	}
+	40% {
+		transform: scale(1);
+		background-color: #F15A29;
+	}
+	50% {
+		transform: scale(1);
+		background-color: #F15A29;
+	}
+}
+
+
+
+
+
+
+
+.dashboard{
+  font-family: "Rubik", sans-serif !important;
+}
+
+
+
+.bg-training-2 {
+  background-image: url('../img/training/training-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+  letter-spacing: 1px;
+
+}
+
+
+
+
+
+/* silk css----------------------------------------------------------------------------- */
+/* silk css ------------------------------------------------------------------------------*/
+.slick-slider .element{
+  height:100px;
+  width:100px;
+  color:#fff;
+  border-radius:5px;
+  display:inline-block;
+  margin:0px 10px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:center;
+      -ms-flex-pack:center;
+          justify-content:center;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  font-size:20px;
+}
+.slick-slider .slick-disabled {
+  opacity : 0; 
+  pointer-events:none;
+}
+
+
+.slick-prev{
+  display: none !important;
+}
+.slick-next{
+  display: none !important;
+}
+
+
+
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+/* silk css---------------------------------------------------------------------- */
+/* silk css---------------------------------------------------------------------- 0*/
+
+
+
+
+
+
+/* head css--------------------------------------------------------------------------  */
+/* head css--------------------------------------------------------------------------  */
+/* head css--------------------------------------------------------------------------  */
+.bg-contact{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.845), rgba(0, 0, 0, 0.904)), url('../img/contact/contact-2.jpg');
+  background-size: cover;
+}
+
+
+.bradcamp-keyboard {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.887), rgba(0, 0, 0, 0.828)), url('../img/keyboard.jpg');
+  background-size: cover;
+}
+
+
+
+
+
+dl {
+  width: 100%;
+}
+
+dt{
+    cursor: pointer;
+    padding: 1rem;
+    background: #eee;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #f9f9f9;
+}
+
+dd{
+    margin: 0;
+    padding: 1em;
+    background: #fcfcfc
+}
+/* head css--------------------------------------------------------------------------  */
+/* head css--------------------------------------------------------------------------  */
+/* head css--------------------------------------------------------------------------  */

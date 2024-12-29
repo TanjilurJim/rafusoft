@@ -1,0 +1,32 @@
+.bg-contact{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.845), rgba(0, 0, 0, 0.904)), url('../img/contact/contact-2.jpg');
+    background-size: cover;
+  }
+
+
+  .bradcamp-keyboard {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.887), rgba(0, 0, 0, 0.828)), url('../img/keyboard.jpg');
+    background-size: cover;
+  }
+
+
+
+
+  
+dl {
+    width: 100%;
+  }
+  
+  dt{
+      cursor: pointer;
+      padding: 1rem;
+      background: #eee;
+      border-bottom: 1px solid #ddd;
+      border-top: 1px solid #f9f9f9;
+  }
+  
+  dd{
+      margin: 0;
+      padding: 1em;
+      background: #fcfcfc
+  }

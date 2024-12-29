@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Script Upgrade | QRCDR - QRcode generator</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+  <div class="col-md-12 py-4 mt-4">
+    <div class="alert alert-primary">
+
+      <h2>QRCDR 5.3.x to 5.3.4</h2>
+      <p>Follow the <a href="#generic-upgrade">GENERIC SCRIPT UPGRADE</a></p>
+
+      <h2>QRCDR 5.2.9 to 5.3.0</h2>
+      <p>Follow the <a href="#generic-upgrade">GENERIC SCRIPT UPGRADE</a></p>
+      <p>NOTE: with the Bootstrap 5 version some clesses slightly changed, so you should also replace the following template files:</p>
+      <ul>
+        <li>/template/navbar.php</li>
+        <li>/template/modals.php</li>
+      </ul>
+      <p>Also update the translations inside the folder /translations/</p>
+
+<hr>
+      <h2>QRCDR 5.1.x to 5.2</h2>
+      <p>Follow the <a href="#generic-upgrade">GENERIC SCRIPT UPGRADE</a></p>
+      <p>Also update the translations inside the folder /translations/</p>
+
+<hr>
+
+      <h2>QRCDR 4.x to 5</h2>
+      <p>Follow the <a href="#generic-upgrade">GENERIC SCRIPT UPGRADE</a></p>
+      <p>NOTE: also replace the following files:</p>
+      <ul>
+        <li>template/footer.php</li>
+        <li>template/navbar.php</li>
+      </ul>
+      <p>or simply change the following functions inside these files:</p>
+Old version:
+<pre>
+&lt;?php echo getString('title').' &copy; '.date('Y'); ?>
+&lt;?php echo langMenu('menu'); ?>
+</pre>
+New version:
+<pre>
+&lt;?php echo qrcdr()->getString('title').' &copy; '.date('Y'); ?>
+&lt;?php echo qrcdr()->langMenu('menu'); ?>
+</pre>
+
+      <p>Updated options inside the config.php file:
+        <pre>
+'rounded_buttons' => '["tabnav", "options", "save"]',   // selective Rounded buttons: '["tabnav", "options", "save"]',
+'debug_mode' => false,                                  // set true to track errors,
+'precision' => 'H',                                     // available: L, M, Q, H
+        </pre>
+      </p>
+  </div>
+    </div>
+  <div class="col-md-12 py-4">
+    <div class="alert alert-success">
+    <h2 id="generic-upgrade">GENERIC SCRIPT UPGRADE (valid from any version)</h2>
+    <p>1) Backup all the files, then replace everything except for:</p>
+    <ul>
+      <li>/qrcodes/ (folder)</li>
+      <li>/template/ (folder)</li>
+    </ul>
+    <ul>
+      <li>config.php (file)</li>
+    </ul>
+    <p>2) Check to have all the options inside the file config.php (sometimes new options are added)</p>
+    </div>
+  </div>
+
+</div>
+      <hr>
+
+      <h2><a href="https://veno.es/updates/logs/?slug=qrcdr/" target="_blank">Log History</a></h2>
+<pre>
+Version 5.3.4
+* Fix: keep image-editor LTR direction
+* Fix: decode html text and email content
+* New: Turkish translations
+</pre>
+ 
+        <p>&nbsp;</p>
+
+      </div>
+    </div>
+  </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

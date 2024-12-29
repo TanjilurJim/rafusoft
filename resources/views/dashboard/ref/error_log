@@ -1,0 +1,4 @@
+[01-May-2024 17:46:53 UTC] PHP Warning:  Undefined variable $item in /home/itsomeza/rafusoft.com/resources/views/dashboard/ref/list.blade.php on line 36
+[01-May-2024 17:46:53 UTC] PHP Warning:  Attempt to read property "slug" on null in /home/itsomeza/rafusoft.com/resources/views/dashboard/ref/list.blade.php on line 36
+[01-May-2024 18:18:22 UTC] PHP Warning:  Undefined variable $item in /home/itsomeza/rafusoft.com/resources/views/dashboard/ref/list.blade.php on line 36
+[01-May-2024 18:18:22 UTC] PHP Warning:  Attempt to read property "slug" on null in /home/itsomeza/rafusoft.com/resources/views/dashboard/ref/list.blade.php on line 36

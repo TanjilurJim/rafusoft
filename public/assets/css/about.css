@@ -1,0 +1,55 @@
+.hire-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.887), rgba(0, 0, 0, 0.828)), url('../img/hire/hire-bg.jpg');
+    background-size: cover;
+  }
+  
+  
+  .vision-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.686), rgba(0, 0, 0, 0.639)), url('../img/about/boat.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    /* padding: ; */
+  }
+  
+  
+  
+  .wwa-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.864), rgba(0, 0, 0, 0.804)), url('../img/about/wwa.jpg');
+    padding: 5rem 0rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  }
+  
+  
+  
+  
+  
+  .progress {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 1.5rem;
+    overflow: hidden;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+  }
+  
+  .progress-bar {
+    background-color: #f15a29;
+  }
+  
+  .progress-bar-striped {
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, .15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%, transparent 75%, transparent);
+    background-size: 1rem 1rem;
+  }
+  
+  .progress-bar-animated {
+    -webkit-animation: progress-bar-stripes 1s linear infinite;
+    animation: progress-bar-stripes 1s linear infinite;
+  }
+  

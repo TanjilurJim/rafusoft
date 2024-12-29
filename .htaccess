@@ -1,0 +1,33 @@
+# Disable directory listing
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    Options +FollowSymLinks
+    RewriteEngine On
+
+
+    RewriteCond %{REQUEST_URI} !^/public/ 
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ /public/$1 
+
+    # Redirect HTTP requests for robots.txt to HTTPS
+    RewriteCond %{HTTPS} off
+    RewriteRule ^robots.txt$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    RewriteRule ^(/)?$ public/index.php [L] 
+</IfModule>
+
+# Ensure HTTPS
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteEngine On
+RewriteCond %{HTTPS} !on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-SSL} !on
+RewriteCond %{HTTP_HOST} ^rafusoft\.com$
+RewriteRule ^(.*)$ "https\:\/\/rafusoft\.com\/$1" [R=301,L]
+

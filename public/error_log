@@ -1,0 +1,105 @@
+[02-May-2024 05:42:43 UTC] PHP Warning:  require(/home/itsomeza/rafusoft.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/itsomeza/rafusoft.com/public/index.php on line 34
+[02-May-2024 05:42:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/itsomeza/rafusoft.com/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsomeza/rafusoft.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/public/index.php on line 34
+[02-May-2024 05:44:45 UTC] PHP Warning:  require(/home/itsomeza/rafusoft.com/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/itsomeza/rafusoft.com/index.php on line 34
+[02-May-2024 05:44:45 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/itsomeza/rafusoft.com/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsomeza/rafusoft.com/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/index.php on line 34
+[02-May-2024 08:59:44 UTC] PHP Warning:  require(/home/itsomeza/rafusoft.com/public/../rafusoft_laravel/vendor/autoload.php): Failed to open stream: No such file or directory in /home/itsomeza/rafusoft.com/public/index.php on line 34
+[02-May-2024 08:59:44 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/itsomeza/rafusoft.com/public/../rafusoft_laravel/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsomeza/rafusoft.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/public/index.php on line 34
+[02-May-2024 08:59:57 UTC] PHP Warning:  require(/home/itsomeza/rafusoft.com/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/itsomeza/rafusoft.com/public/index.php on line 34
+[02-May-2024 08:59:57 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/itsomeza/rafusoft.com/public/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsomeza/rafusoft.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/public/index.php on line 34
+[02-May-2024 09:00:08 UTC] PHP Warning:  require(/home/itsomeza/rafusoft.com/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/itsomeza/rafusoft.com/public/index.php on line 34
+[02-May-2024 09:00:08 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/itsomeza/rafusoft.com/public/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsomeza/rafusoft.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/public/index.php on line 34
+[02-May-2024 09:00:18 UTC] PHP Warning:  require(/home/itsomeza/rafusoft.com/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/itsomeza/rafusoft.com/public/index.php on line 34
+[02-May-2024 09:00:18 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/itsomeza/rafusoft.com/public/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsomeza/rafusoft.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/public/index.php on line 34
+[02-May-2024 09:00:56 UTC] PHP Warning:  require(/home/itsomeza/rafusoft.com/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/itsomeza/rafusoft.com/public/index.php on line 34
+[02-May-2024 09:00:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/itsomeza/rafusoft.com/public/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsomeza/rafusoft.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/public/index.php on line 34
+[02-May-2024 09:01:12 UTC] PHP Warning:  require(/home/itsomeza/rafusoft.com/public/vendor/autoload.php): Failed to open stream: No such file or directory in /home/itsomeza/rafusoft.com/public/index.php on line 34
+[02-May-2024 09:01:12 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/itsomeza/rafusoft.com/public/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/itsomeza/rafusoft.com/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/itsomeza/rafusoft.com/public/index.php on line 34
+[02-May-2024 09:53:14 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [error.500] not found. in /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths()
+#1 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/Factory.php(138): Illuminate\View\FileViewFinder->find()
+#2 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(88): Illuminate\View\Factory->make()
+#3 /home/itsomeza/rafusoft.com/app/Exceptions/Handler.php(36): Illuminate\Routing\ResponseFactory->view()
+#4 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): App\Exceptions\Handler->render()
+#5 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[02-May-2024 09:53:15 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [error.500] not found. in /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths()
+#1 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/Factory.php(138): Illuminate\View\FileViewFinder->find()
+#2 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(88): Illuminate\View\Factory->make()
+#3 /home/itsomeza/rafusoft.com/app/Exceptions/Handler.php(36): Illuminate\Routing\ResponseFactory->view()
+#4 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): App\Exceptions\Handler->render()
+#5 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[02-May-2024 09:53:18 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [error.500] not found. in /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths()
+#1 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/Factory.php(138): Illuminate\View\FileViewFinder->find()
+#2 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(88): Illuminate\View\Factory->make()
+#3 /home/itsomeza/rafusoft.com/app/Exceptions/Handler.php(36): Illuminate\Routing\ResponseFactory->view()
+#4 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): App\Exceptions\Handler->render()
+#5 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[02-May-2024 09:53:18 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [error.500] not found. in /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths()
+#1 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/Factory.php(138): Illuminate\View\FileViewFinder->find()
+#2 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(88): Illuminate\View\Factory->make()
+#3 /home/itsomeza/rafusoft.com/app/Exceptions/Handler.php(36): Illuminate\Routing\ResponseFactory->view()
+#4 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): App\Exceptions\Handler->render()
+#5 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[02-May-2024 09:53:19 UTC] PHP Fatal error:  Uncaught InvalidArgumentException: View [error.500] not found. in /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php:137
+Stack trace:
+#0 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php(79): Illuminate\View\FileViewFinder->findInPaths()
+#1 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/Factory.php(138): Illuminate\View\FileViewFinder->find()
+#2 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(88): Illuminate\View\Factory->make()
+#3 /home/itsomeza/rafusoft.com/app/Exceptions/Handler.php(36): Illuminate\Routing\ResponseFactory->view()
+#4 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(218): App\Exceptions\Handler->render()
+#5 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#6 /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/itsomeza/rafusoft.com/vendor/laravel/framework/src/Illuminate/View/FileViewFinder.php on line 137
+[07-May-2024 13:34:29 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/itsomeza/rafusoft.com/vendor/composer/platform_check.php on line 24
+[07-May-2024 13:34:49 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/itsomeza/rafusoft.com/vendor/composer/platform_check.php on line 24
+[07-May-2024 13:34:53 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/itsomeza/rafusoft.com/vendor/composer/platform_check.php on line 24
+[07-May-2024 13:34:53 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/itsomeza/rafusoft.com/vendor/composer/platform_check.php on line 24
+[07-May-2024 13:39:49 UTC] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.1.0". You are running 7.4.33. in /home/itsomeza/rafusoft.com/vendor/composer/platform_check.php on line 24
